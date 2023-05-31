@@ -96,6 +96,15 @@ nav ul{
     margin-bottom: -2px;
 }
 
+.btn{
+    padding: 10px;
+    background-color: #1B9C85;
+    width: 8%;
+    margin: 20px auto;
+    color: #FFE194;
+    border-radius: 5px;
+}
+
 #projects hr{
     width: 50%;
     height: 2px;
@@ -123,7 +132,8 @@ nav ul{
 
 #projects .cards a div{
     margin: 10px;
-    border: 1px solid brown;
+    border: 1px solid #1B9C85;
+    border-radius: 10px;
     background-color: #1B9C85;
     color: #FFE194;
 }
