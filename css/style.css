@@ -35,7 +35,7 @@ nav ul{
 }
 
 #projects {
-    height: 100vh
+    height: 100%;
 }
 
 
@@ -77,11 +77,40 @@ nav ul{
     background-color: #fff;
 }
 
+/* #projects .cards{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+} */
+
 #projects .cards{
-    display: grid;
-    grid-template-columns: repeat(1, 3);
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    box-sizing: border-box;
+    justify-content: space-evenly;
 }
 
+#projects .cards a{
+    text-decoration: none;
+    font-size: 25px;
+}
 
+#projects .cards a div{
+    margin: 10px;
+    border: 1px solid brown;
+    background-color: #1B9C85;
+    color: #FFE194;
+}
+
+#projects .cards a div img{
+    width: 400px;
+    height: 400px;
+}
+
+.project-tile p{
+    background-color: #1B9C85;
+    color: #FFE194;
+}
 
 /* Projects end */
