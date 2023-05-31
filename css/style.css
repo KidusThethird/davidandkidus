@@ -1,28 +1,32 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 nav{
     position:fixed;
     top: 0;
     background-color: #4C4C6D;
     width: 100%;
-    left: 0;
 }
 nav a{
     color: white;
     padding-right: 30px;
-    font-family:'Brush Script MT', cursive; 
+    font-family:'Brush Script MT', cursive;
+    text-decoration: none; 
 }
 nav ul{
     padding-left: 65%;
 }
 #welcome-section{
     height: 100vh;
-
     background-color: #1B9C85;
 }
 #welcome-section h1{
     color: #FFE194;
     font-family:'Brush Script MT', cursive; 
     font-size: 60px;
-
 }
 #welcome-section p{
     font-family:'Brush Script MT', cursive;
@@ -53,3 +57,31 @@ nav ul{
 }
 
 /* center end*/
+
+/* Projects Start */
+#projects{
+    padding: 20px 0px;
+    background-color: #4C4C6D;
+}
+
+#projects h2{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-bottom: -2px;
+}
+
+#projects hr{
+    width: 50%;
+    height: 2px;
+    background-color: #fff;
+}
+
+#projects .cards{
+    display: grid;
+    grid-template-columns: repeat(1, 3);
+}
+
+
+
+/* Projects end */
