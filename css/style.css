@@ -9,6 +9,7 @@ nav{
     top: 0;
     background-color: #4C4C6D;
     width: 100%;
+    justify-content: end;
 }
 nav a{
     color: white;
